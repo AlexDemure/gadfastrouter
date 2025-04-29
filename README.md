@@ -25,7 +25,7 @@ pip install gadfastrouter
 import fastapi
 
 from gadfastrouter import APIRoute
-from sgadfastrouter import APIRouter
+from gadfastrouter import APIRouter
 
 fastapi.routing.APIRoute = APIRoute
 fastapi.APIRouter = APIRouter
